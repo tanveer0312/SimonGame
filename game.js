@@ -7,7 +7,6 @@ var gameStarted = false;
 var level = 0;
 
 
-
 $(".btn").click(function(){
 
     var userChosenColour = $(this).attr("id");
