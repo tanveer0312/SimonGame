@@ -29,6 +29,13 @@ $(document).on("keypress", function(){
     gameStarted = true;
 });
 
+$(document).on("click", function(){
+    if(gameStarted === false){
+        nextSequence();
+    }
+    gameStarted = true;
+});
+
 function nextSequence(){
     
     var randomNumber = Math.floor(Math.random() * 4);
